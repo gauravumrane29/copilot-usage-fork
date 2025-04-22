@@ -24,7 +24,8 @@ jobs:
       - uses: ./
         with:
           # Add your organization here
-          organization: ${{ vars.ORG }}
+          # organization: ${{ vars.ORG }}
+          organization: gauravumrane291992
           team: ${{ matrix.team }}
           # Add your token here
           github-token: ${{ secrets.TOKEN }}
